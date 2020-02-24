@@ -1,0 +1,127 @@
+html {
+    background: linear-gradient(to bottom, #45484D 0%, #000000 100%);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contentCalc {
+    width: 300px;
+    height: 525px;
+    background-color: #000000;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.calcDisplay {
+    width: 90%;
+    height: 100px;
+    font-size: 55px;
+    padding: 0;
+    padding-top: 40px;
+    border: 0;
+    border-radius: 6px;
+    color: #fff;
+    text-align: right;
+    background: transparent;
+}
+
+.calcKeyPad {
+    border-top: 1px solid #000;
+}
+
+div .contentButton {
+    width: 74px;
+    height: 74px;
+    background-color: transparent;
+    float: left;
+    color: #ffffff;
+    border: 0;
+    font-weight: 300;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+div .contentButton-large {
+    width: 149px;
+    height: 74px;
+    background-color: transparent;
+    float: left;
+    color: #ffffff;
+    border: 0;
+    font-weight: 300;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+div .contentButton .btn {
+    border-radius: 50%;
+    width: 85%;
+    height: 85%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: 0;
+    color: #ffffff;
+}
+
+div .contentButton .btn-dark {
+    background-color: #363636;
+    font-size: 30px;
+}
+
+div .contentButton-large .btn-dark {
+    background-color: #363636;
+    font-size: 30px;
+}
+
+div .contentButton .btn-orange {
+    background-color: #ff940e;
+    font-size: 30px;
+}
+
+div .contentButton .btn-light {
+    background-color: #A5A5A5;
+    color: #000000;
+    font-size: 30px;
+}
+
+div .contentButton-large .btn-large {
+    width: 140px;
+    height: 85%;
+    text-align: left;
+    padding-left: 30px;
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    border: 0px solid #000000;
+    color: #ffffff;
+}
+
+div .contentButton .btn-dark:hover {
+    background-color: #808080;
+}
+
+div .contentButton-large .btn-dark:hover {
+    background-color: #808080;
+}
+
+div .contentButton .btn-light:hover {
+    background-color: #CECECE;
+}
+
+div .contentButton .btn-orange:hover {
+    background-color: #faa040;
+}
+
+div .contentButton .btn-orange-switch:focus {
+    transition: color 200ms;
+    transition: background-color 200ms;
+    background-color: #fff;
+    color: #ff940e;
+}
